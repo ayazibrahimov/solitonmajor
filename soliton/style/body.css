@@ -1,0 +1,388 @@
+
+
+.headinig--paraghraf{
+    margin: auto auto;
+    text-align: center;
+  
+}
+
+
+
+
+.header-slider{
+    margin: 60px auto;
+
+}
+
+
+.slider-box{
+    margin: 0 auto;
+}
+
+.sliders--box{
+    background-image: url(../imgage/17580-[Converted]\ 1.png);
+    background-position: center;
+    background-repeat: none;
+}
+
+.body--products{
+    width: 100%;
+    /* height:90vh; */
+    min-height: 1100px;
+    
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+.body--products__container{
+    margin-top: 20px;
+}
+
+
+
+.product-fixing{
+    margin: 50px auto;
+    text-align: center;
+    
+}
+
+
+
+.card{
+    
+   height: 250px;
+    width: 250px;   
+    
+ 
+    background-image: url(../imgage/coverPhoto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cutted{
+   width: 30%;
+   height: 15%;
+   background-color: red;
+   margin-bottom: -22%;
+   
+   clip-path: ellipse(25% 15% at 48% 84%);
+}
+
+
+
+/* ellipse */
+.btn-all{
+  background-color: #016BAF;  
+  color: white;
+  border: none;
+}
+
+
+.btn-all i{
+    display: none;
+}
+
+
+.adv-logos{
+    width: 100%;
+    height: 30%;
+    background-color: tomato;
+}
+
+section {
+    padding: 90px 0;
+}
+
+
+.brend-box{
+    display: flex;
+    justify-content: center;
+}
+
+.brend-image{
+    margin-right: 55px;
+    width: 20%;
+    border-radius: 5%;
+    background-color: 
+#F1F4FA;
+}
+
+
+ 
+
+
+.brend-image img {
+
+    border-style: none;
+}
+   
+
+#map2 {
+    background-image: url(https://liderservice.net/front/images/bg/xerite.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+}
+    
+
+.map--title{
+    display: flex;
+    justify-content: center;
+}
+
+.map--title h2{
+    color: white;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.map--title h2::before{
+    left: -50px;
+}
+.map--title h2::after{
+    right: -50px;
+}
+
+.map--title h2::before, .map--title h2::after{
+      content:'';
+      position:absolute;
+      width: 35px;
+      height: 2px;
+      background: #F32735;
+      top: 50%;
+}
+
+
+.map--essential{
+    margin-top: 30px;
+    width: 100%;
+    height: 450px;
+     display: flex;
+     justify-content: center;
+}
+
+
+/* section-about */
+
+section{
+    padding: 90px 0;
+}
+
+#about {
+    position: relative;
+    background-image: url(https://liderservice.net/front/images/bg/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding: 90px 0;
+    
+}
+#about .row {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    position: relative;
+    margin-bottom: 46px;
+}
+
+.about-image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+}
+
+#about p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.about-block{
+    display: flex;
+}
+.about-block-image{
+    width: 170px;
+    height: 73px;
+ 
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: #E2F0FA;
+    border-radius: 50%;
+    margin-right: 15px;
+   
+}
+
+
+.about-block-image img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+/* faq */
+#faq{
+    background-image: url(https://liderservice.net/front/images/bg/bg.jpg);
+    min-height: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 90px 0;
+}    
+ 
+.product--main{
+   border: none;
+   border-radius: 0;
+   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color: #fff;
+   background-clip: border-box;
+   margin-right: 20px;
+   margin-left: 20px;
+}
+
+.product--main .product--main__image{
+    margin-bottom: 0;
+    background-color: rgb(0,0,0 .03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.portfolio-galery{
+  position: absolute;
+  top: 0;
+   left: 0;
+   right: 50%;
+   bottom: 0;
+}
+
+.product--main__image img{
+   display: block;
+   width: 100%;
+}
+
+.product--main__para{
+    background: url(../imgage/Rectangle\ 392.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 11px 15px;
+}
+
+
+
+
+.product--main__para p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+
+
+/* portfolio-2 */
+
+.portfolio-2{
+
+    margin-top: 120px;
+    /* display: flex; */
+    justify-content: end;
+    position: relative;
+}
+
+
+.portfolio-2 .container::before{
+    content: "";
+     position: absolute;
+     background-image: url(../imgage/Frame.png);
+     width: 180px;
+     height: 138px;
+     left: 100px;
+     top: -60px;
+
+   
+}
+
+
+
+
+
+.box{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 0;
+ 
+   
+}
+
+.box--images{
+   position: absolute;
+   left: 0;
+   
+}
+
+.box--image__1{
+    margin-top: 10px;
+}
+
+.box--image__2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+.box--image__2 img{
+   border: 15px solid white;
+ }
+
+
+ 
+.box--text{
+    margin-top: 10px;
+    width: calc(100% - 480px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

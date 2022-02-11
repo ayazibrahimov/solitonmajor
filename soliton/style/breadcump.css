@@ -1,0 +1,208 @@
+#breadcump{
+    padding: 70px 0;
+    background-image: url(https://www.mttservice.net/front/images/bg/breadcrumb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#breadcump .container .title {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+#breadcump .list{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 0.75rem 1rem;
+   list-style: none;
+}
+
+
+
+#breadcump  .list li{
+    color: white;
+}
+
+
+#breadcump  .list li a{
+    color: white;
+    text-decoration: none;
+}
+
+#breadcump  .list li  i{
+    font-size: 10px;
+    transform: translateY(-2px) rotate(80deg);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+#single-page{
+    padding: 90px 0;
+    background-color: #F8F9FA;
+}
+
+
+
+#single-page .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    border: 1px solid transparent;
+}
+
+.page-text {
+    background: #FAFBFC;
+    padding: 30px;
+    box-shadow: 0px 5px 20px rgba(3, 54, 87, 0.15);
+}
+
+.page-text p span img{
+  float: left;
+  margin: 0 20px 0 15px;
+}
+
+
+.page-text p {
+    
+    color: #656565;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+}
+
+.page-text p i{
+    font-size: 9px;
+    padding-top: 10px;
+}
+
+
+.sticky-block{
+    position: sticky;
+    top: 60px;
+}
+
+
+
+
+.sticky-menu li a{
+   text-decoration: none;
+   /* font-size: 18px; */
+
+   color: #979797;
+   display: block;
+   font-weight: 500;
+   /* padding: 5px 10px; */
+   padding: 5px;
+ 
+}
+
+
+
+
+.sticky-menu li a:hover{
+    color: black;
+}
+
+
+.sticky-menu li a:focus{
+    color: black;
+    border-left: 5px solid blue;
+}
+
+.sticky-menu li a:focus .sticky-menu .list-group-item{
+    border-left: 5px solid blue;
+}
+
+
+.sticky-contact{
+    margin-top: 50px;
+}
+
+
+.sticky-btn{
+    padding: 15px 0;
+    display: flex;
+    justify-content:center ;
+    height: 4rem;
+    margin-top: 10px;
+  
+}
+
+
+.buttons{
+    width: 40px;
+    background-color: red;
+    padding: 1rem 1rem;
+    position: relative;
+    height: 40px;
+    background: #0071BB;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 1s;
+}
+.buttons:hover{
+    background-color: white;
+    border: 1px solid #0071BB;
+}
+
+.buttons:not(:last-child){
+    margin-right: 15px;
+}
+
+.buttons a {
+    position: absolute;
+    left: 8px;
+    top: 0;
+
+}
+
+
+
+.phone:hover{
+    border: transparent;
+    background:transparent
+}
+
+.message:hover{
+    border: transparent;
+    background:transparent
+}
+.up:hover{
+    border: transparent;
+    background:transparent
+}
+
+
+
+.btn-div{
+    text-align: center;
+    margin-top: 75px;
+    color: white;
+}
+
+
+.btn-div a{
+    padding: 12px 16px;
+    background-color: #0071BB;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+

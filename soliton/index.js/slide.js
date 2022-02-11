@@ -10,12 +10,25 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
+        nextEl: ".swiper-button-1",
+        prevEl: ".swiper-button-2",
+    }
 });
 
 
-
+$('.service-slider-1').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+          
+$('.service-slider-2').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+  });
+          
 
 

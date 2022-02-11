@@ -1,0 +1,311 @@
+
+.contact{
+    padding: 90px 0;
+    background-image: url(https://liderservice.net/front/images/bg/contact.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.contact .row{
+    display: flex;
+    flex: wrap;
+    /* margin-right: -15px;
+    margin-left: -15px; */
+  
+}
+
+.contact .col-lg-7{
+    
+    padding: 30px 0px 30px 0px;    
+}
+
+
+.contact .col-lg-7 .bg-1{
+    padding: 25px  35px;
+    background-image: url(https://liderservice.net/front/images/bg/contact-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contact .control{
+    width: 100%;
+    padding: 0.3rem 0.7rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+
+
+.contact input {
+    border:none;
+    background-color: transparent;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #979797;
+    border-radius: none;
+    height: 40;
+    outline: none;
+}
+
+.selection{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.selection select{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #979797;
+    padding: 0.3rem 0.7rem;
+
+}
+
+
+.contact button{
+    padding: 6px 35px;
+    background: #0071BB;
+    border:1px solid#0071BB;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(black .8);
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+.contact .col-lg-5{
+    
+    padding: 30px 0px 30px 0px;    
+}
+
+
+.bg-2{
+    padding: 25px  35px;
+    background-image: url(https://liderservice.net/front/images/bg/contact-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+.bg-2 h2{
+    margin: 15px;
+    margin-left: 25px;
+    
+}
+
+.bg-2 ul{
+    list-style-type: none;
+}
+.bg-2 ul .num {
+    margin: 6px 0;
+}
+
+
+.bg-2 ul .mail{
+    margin: 18px 0;
+}
+
+.bg-2 ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all .7s;
+}
+
+.bg-2 ul li a:hover{
+    color: #dc3545;
+}
+
+
+/* footer */
+
+
+footer{
+    background-image: url("https://liderservice.net/front/images/bg/footer.jpg");
+    background-size: cover;
+    background-repeat: norepeat;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+footer .container .row{
+    display: flex;
+    flex-wrap: warp;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+footer .container .row >*{
+    margin-bottom: 30px;
+}
+
+.footer-about{
+    color: #777E83;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+
+.social-links a{
+    width: 30px;
+    height: 30px;
+    border:1px solid #0071BB;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+
+
+.social-links a:not(:last-child){
+    margin-right: 8px;
+}
+
+
+.social-links i{
+    font-size: 17px;
+    color: #0071BB;
+}
+
+
+footer .footer-title{
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    padding-left: 10px;
+
+}
+
+
+footer .footer-title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: 20px;
+    width: 3px;
+    background-color: #0071BB;
+}
+
+.footer-menu{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+     margin: 0;
+     padding: 0;
+    
+
+}
+
+
+.footer-menu li{
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.footer-menu li a{
+    color:#2B343B;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all .3s;
+    
+}
+
+
+.footer-menu li a i{
+    font-weight: 100;
+    color: #0071BB;
+}
+
+.footer-menu li a:hover{
+    color: #dc3545;
+}
+
+.footer-menu__bottom li{
+    width: 41%;
+}
+
+
+
+.back-to-top, .whatsapp, .phone-btn, .email-btn{
+    position: fixed;
+    right: 50px;
+    bottom: 60px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background: #0071BB;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+   
+    cursor: pointer;
+    z-index: 998;
+}
+
+
+
+.fixed-items{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+     
+ }
+
+
+
+ .fixed-items {
+    font-size: 25px;
+    color: white;
+    line-height: 20px;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    font-weight: 100;
+    transition:all 1s;
+
+}
+.fixed-items:hover{
+    background-color: white;
+    border: 1px solid #0071BB;
+    border-radius: 8px;
+}
+
+.whatsapp{
+    bottom: 255px;
+}
+
+
+.phone-btn{
+    bottom: 194px;
+}
+
+
+.email-btn{
+    bottom: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -19,3 +19,16 @@ $('.slider--fixing__carusel').slick({
     autoplaySpeed: 2000,
 });
 
+
+// SCROLL
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+.navigation{
+    background-color: white; /*reng deyisecek*/
+    padding: 1.5rem 0;
+    background-color: #EFF4F8;
+    display: none;
+    position: sticky;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navigation .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-img img{
+    width: 100px;
+    height: 35px;
+}
+
+
+.burger{
+    /* width: 50%; */
+    /* background-color: red; */
+    /* display: flex;
+    justify-content: end; */
+    cursor: pointer;
+    z-index: 300;
+}
+
+
+.burger .list{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    transition: transform .3s ease;
+}
+
+.navigation-menu{
+    width: calc(100% - 28%);
+    height: 100vh;
+    background-color: white;
+    background-image: url(../imgage/17580-[Converted]\ 1.png);
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    transform: translateX(100%);
+    top: 0;
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-menu-list{
+    width: 80%;
+   
+}
+
+#nav-list{
+    list-style: none;
+}
+
+
+
+#nav-list li{
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    /* margin:15px 0 ; */
+}
+
+
+#nav-list li a{
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    
+}
+
+
+.out-line{
+    margin: 0 auto;
+    width: 55%;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:991px){   /*responsive*/
+   
+    body{
+        overflow-x: hidden;
+      
+    }
+
+    header{
+        display: none;
+    }
+    .navigation{
+        display: block;
+    }
+}
+
+
+.toggle-menu{
+    transform: translateX(0%);
+}
+
+@keyframes fadeOut {
+    from{
+        opacity: .9;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+.toggle .list-1{
+   transform: rotate(-225deg) translate(4px,-7px); 
+}
+
+.toggle .list-2{
+    opacity: 0;
+ }
+ 
+
+
+ .toggle .list-3{
+    transform: rotate(225deg) translate(2px,9px); 
+ }
+ 
+
+
+

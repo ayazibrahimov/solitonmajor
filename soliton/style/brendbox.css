@@ -1,0 +1,19 @@
+
+.brend-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.brend-image{
+    margin-right: 55px;
+    width: 20%;
+    border-radius: 5%;
+    background-color: 
+#F1F4FA;
+}
+
+.brend-image img{
+    width: 100%;
+}
+

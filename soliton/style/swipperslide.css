@@ -1,0 +1,38 @@
+
+.mySwiper{
+    height: 60vh;
+}
+.swiper-slide{
+    height: 100%;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.swiper-slide img{
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.swiper-button-next{
+    color: white !important;
+    font-size: 8px !important;
+}
+.swiper-button-prev{
+    color: white !important;
+    font-size: 8px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */

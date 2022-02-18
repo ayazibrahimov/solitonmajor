@@ -304,47 +304,6 @@ div .lang li{
 
 
 
-.slide {
-    width: 100%;
-    height: 80vh;
-    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
-}
-
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    background-repeat: none;
-    width: 100%;
-    height: 90vh;
-}
-
-.swiper-slide .img {
-    display: block;
-    width: 100%;
-    height: 60vh;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 /*  */

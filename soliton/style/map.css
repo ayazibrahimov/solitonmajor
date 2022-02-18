@@ -1,0 +1,67 @@
+
+
+
+
+#map2 {
+    background-image: url(https://mttservice.net/front/images/bg/xerite.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+}
+    
+
+.map--title{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.map--title h2{
+    color: white;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.map--title h2::before{
+    left: -50px;
+}
+.map--title h2::after{
+    right: -50px;
+}
+
+.map--title h2::before, .map--title h2::after{
+      content:'';
+      position:absolute;
+      width: 35px;
+      height: 2px;
+      background: #F32735;
+      top: 50%;
+}
+
+
+.map--essential{
+    /* margin-top: 30px; */
+    margin: 0 auto;
+    padding: 0 2px;
+    width: 80%;
+    height: 450px;
+     display: flex;
+     justify-content: center;
+}
+
+
+
+
+.map--essential iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+

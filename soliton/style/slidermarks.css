@@ -1,0 +1,22 @@
+.marks{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+.slick-next::before{
+  
+    color: grey !important;
+}
+.slick-prev{
+    margin-left: 2px;
+}
+.slick-next{
+    margin-right: 2px;
+}
+.slick-prev::before{
+  
+    color: grey !important;
+}

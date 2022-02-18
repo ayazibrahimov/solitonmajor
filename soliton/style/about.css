@@ -1,0 +1,55 @@
+section{
+    padding: 90px 0;
+}
+
+#about {
+    position: relative;
+    background-image: url(https://mttservice.net/front/images/bg/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding: 90px 0;
+    
+}
+#about .row {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    position: relative;
+    margin-bottom: 46px;
+}
+
+.about-image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    width: 40%;
+    height: 100%;
+}
+
+#about p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.about-block{
+    display: flex;
+}
+.about-block-image{
+    width: 170px;
+    height: 73px;
+ 
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: #E2F0FA;
+    border-radius: 50%;
+    margin-right: 15px;
+   
+}
+
+
+

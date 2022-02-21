@@ -1,47 +1,47 @@
-#faq{
+#faq {
     background-image: url(https://mttservice.net/front/images/bg/bg.jpg);
     /* min-height: 1250px; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 90px 0;
-}    
- 
-.product--main{
-   border: none;
-   border-radius: 0;
-   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   min-width: 0;
-   word-wrap: break-word;
-   background-color: #fff;
-   background-clip: border-box;
-   margin-right: 15px;
-   margin-left: 15px;
 }
 
-.product--main .product--main__image{
+.product--main {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.product--main .product--main__image {
     margin-bottom: 0;
-    background-color: rgb(0,0,0 .03);
-    border-bottom: 1px solid rgba(0,0,0,.125);
+    background-color: rgb(0, 0, 0 .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
 }
 
-.portfolio-galery{
-  position: absolute;
-  top: 0;
-   left: 0;
-   right:0;
-   bottom: 0;
+.portfolio-galery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
-.product--main__image img{
-   display: block;
-   width: 100%;
+.product--main__image img {
+    display: block;
+    width: 100%;
 }
 
-.product--main__para{
+.product--main__para {
     background: url(../imgage/Rectangle\ 392.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -51,20 +51,39 @@
 
 
 
-.product--main__para p{
+.product--main__para p {
     color: white;
     font-size: 15px;
     margin-bottom: 0;
 }
 
-.product--main .slick-prev , .slick-next{
+.product--main .slick-prev,
+.slick-next {
     color: red;
 }
+
+.slider--fixing__carusel {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.slider--fixing__carusel .slick-prev {}
+
+.slider--fixing__carusel .slick-next {}
+
+/* 
+.slick-slider {
+    width: 90% !important;
+} */
+
+
 
 
 /* portfolio-2 */
 
-.portfolio-2{
+.portfolio-2 {
 
     margin-top: 120px;
     /* display: flex; */
@@ -74,14 +93,14 @@
 }
 
 
-.portfolio-2 .container::before{
+.portfolio-2 .container::before {
     content: "";
-     position: absolute;
-     background-image: url(../imgage/Frame.png);
-     width: 180px;
-     height: 138px;
-     left: 295px;
-     top: -60px;
+    position: absolute;
+    background-image: url(../imgage/Frame.png);
+    width: 180px;
+    height: 138px;
+    left: 295px;
+    top: -60px;
 
 }
 
@@ -89,68 +108,68 @@
 
 
 
-.box{
+.box {
     display: flex;
     justify-content: end;
     position: relative;
     left: 0;
     /* padding: 30px 0; */
-   
+
 }
 
 
-.box--images{
-   position: absolute;
-   left: 107px;
-   
+.box--images {
+    position: absolute;
+    left: 107px;
+
 }
 
-.box--image__1{
+.box--image__1 {
     margin-top: 10px;
 }
 
-.box--image__2{
+.box--image__2 {
     position: absolute;
     top: 50%;
     left: 50%;
-    
+
 }
 
 
-.box--image__2 img{
-   border: 15px solid white;
- }
+.box--image__2 img {
+    border: 15px solid white;
+}
 
 
- 
-.box--text{
+
+.box--text {
     margin-top: 10px;
     width: calc(100% - 600px);
     display: flex;
     flex-direction: column;
     justify-content: left;
-  
+
 }
 
-.box--text .accordion{
+.box--text .accordion {
     width: 100%;
 }
 
-.box--text .accordion-item{
+.box--text .accordion-item {
     margin-top: 20px;
-    
+
 }
 
 
-.portfolio-2 .btn{
+.portfolio-2 .btn {
     text-align: end;
     margin-top: 35px;
 
-    
-}  
 
-.portfolio-2 .btn a{
- 
+}
+
+.portfolio-2 .btn a {
+
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -158,23 +177,3 @@
     padding: 10px 27px;
     border-radius: 3px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,56 +1,53 @@
-.service-slide{
+.service-slide {
     margin-bottom: 60px;
 }
 
-.service-slide-1{
-  width: 95%;
-  margin: 0 auto;
-}
-.service-slide-2{
-  width: 95%;
-  margin: 0 auto;
+.service-slider-1 {
+    width: 95%;
+    margin: 0 auto;
 }
 
-.services{
+.service-slider-2 {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.services {
     padding: 90px 0;
     background-image: url(../imgage/17580-[Converted]\ 1.png);
     background-size: cover;
 }
 
-.service-heading{
+.service-heading {
     text-align: center;
-} 
-
-.service-heading h2{
-   
-   margin-bottom: 25px;
-   display: inline-block;
-   
 }
 
-/* 
-.service-slide-item{
-    margin-right: 30px;
+.service-heading h2 {
 
-} 
-*/
+    margin-bottom: 25px display: inline-block;
+
+}
 
 
-.service-slide-item .item{
-    margin:0 15px;
+
+
+
+
+.service-slide-item .item {
+    margin: 0 15px;
     margin-top: 1rem;
     transition: all .5s;
-      
+
 }
 
 .service-slide-item .item:hover {
-   transform: translateY(-1rem);
+    transform: translateY(-1rem);
 }
 
 
 
 
-.item .card{
+.item .card {
     display: flex;
     align-items: center;
     min-height: 280px;
@@ -69,7 +66,7 @@
 }
 
 
-.item .card a{
+.item .card a {
     position: absolute;
     top: 0;
     left: 0;
@@ -79,7 +76,7 @@
 
 
 
-.item .card img{
+.item .card img {
     width: initial;
     display: block;
     vertical-align: middle;
@@ -90,15 +87,15 @@
 
 
 
-.card .service-icon{
+.card .service-icon {
     background: white;
     width: 80px;
     height: 80px;
     clip-path: circle(50% at 50% 100%);
-     position: absolute;
-     bottom: 0;
-     top: auto;
-      /* transform: all .3s; */
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    /* transform: all .3s; */
 }
 
 .card .service-icon i {
@@ -112,38 +109,38 @@
     transition: all .3s;
 }
 
-.service-icon::before{
+.service-icon::before {
     content: "";
     background: white;
     width: 0px;
     height: 230px;
     clip-path: circle(50% at 50% 100%);
-     position: absolute;
-     bottom: 0;
-     top: auto;
-      transform: all 1s;
-      transition: 1s all;
-      transition: all .5s;
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    transform: all 1s;
+    transition: 1s all;
+    transition: all .5s;
 }
 
 
 
-.card:hover .service-icon::before{
+.card:hover .service-icon::before {
     content: "";
     background: #034A78;
     clip-path: circle(50% at 50% 100%);
-     position: absolute;
-      width: 80px;
-      height: 120px;
-     bottom: 0;
-     top: auto;
-     width: 80px;
+    position: absolute;
+    width: 80px;
+    height: 120px;
+    bottom: 0;
+    top: auto;
+    width: 80px;
     height: 80px;
 }
 
-.card:hover  i{
+.card:hover i {
     color: white;
-  
+
 }
 
 
@@ -155,21 +152,21 @@
 }
 
 
- .btn-div .button{
+.btn-div .button {
     /* display: inline-block; */
-     background-color: #0071BB;
-     border-radius: 4px;
-     color: #fff;
-     padding: 10px 27px;
-     text-decoration: none;
-     border-radius: 3px;
-     box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
-     min-width: 125px;
-     
- }
+    background-color: #0071BB;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 27px;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+    min-width: 125px;
+
+}
 
 
-.service-heading-2{
+.service-heading-2 {
     margin-top: 60px;
 }
 
@@ -178,26 +175,26 @@
 
 
 /*  */
-.brend-box{
+.brend-box {
     transition: all .8s;
 }
 
-.brend-image{
+.brend-image {
     position: relative;
 }
 
 
-.brend-image  {
-   
+.brend-image {
+
     width: 100%;
     overflow: hidden;
     box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2);
     backface-visibility: hidden;
     transition: all .8s;
-    
+
 }
 
-.brend-image  img{
+.brend-image img {
     width: 100%;
     vertical-align: middle;
     border-style: none;
@@ -206,10 +203,10 @@
 
 
 
-.brend-box :hover  {
-    transform: translateY(-.5rem);      
+.brend-box :hover {
+    transform: translateY(-.5rem);
 }
-   
+
 .brend-box :hover img {
-    transform: translateY(0rem);      
+    transform: translateY(0rem);
 }

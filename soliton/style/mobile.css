@@ -1,5 +1,92 @@
-@media screen and (max-width:575px){
-    html{
+@media screen and (max-width:575px) {
+    html {
         font-size: 14px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    .service-slider-1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .service-slider-2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* .service-slide-item .item {
+        padding: 0 10px;
+    } */
+
+    .service-slide-item .card {
+        width: 100%;
+
+        z-index: 1;
+    }
+
+    .brend-box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .brend-image {
+        width: 50%;
+        margin: 15px auto;
+    }
+
+
+    #map2 {
+        padding: 30px 0;
+    }
+
+
+    .map--essential {
+        padding: 0 2px;
+        height: 350px;
+    }
+
+    .map--essential iframe {
+        height: 350px;
+    }
+
+
+    #about .about-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact .col-lg-7 {
+        padding: 30px;
+        margin-bottom: 25px;
+        z-index: 1;
+    }
+
+    .contact .col-lg-5 {
+        padding: 30px;
+        margin-bottom: 25px;
+        z-index: 1;
+    }
+
+    .bg-2 {
+        padding: 15px 0px;
+    }
+
+    .bg-2 {
+        padding: 15px 35px;
+    }
+
+
+    .contact .contact-text li {
+        width: 100%;
+    }
+
+    .contact .mail {
+        overflow: hidden;
     }
 }

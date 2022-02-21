@@ -1,6 +1,6 @@
 #faq{
     background-image: url(https://mttservice.net/front/images/bg/bg.jpg);
-    min-height: 1250px;
+    /* min-height: 1250px; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -70,6 +70,7 @@
     /* display: flex; */
     justify-content: end;
     position: relative;
+    margin-bottom: 50px;
 }
 
 
@@ -93,7 +94,7 @@
     justify-content: end;
     position: relative;
     left: 0;
- 
+    /* padding: 30px 0; */
    
 }
 
@@ -112,6 +113,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    
 }
 
 
@@ -131,7 +133,7 @@
 }
 
 .box--text .accordion{
-    width: 98%;
+    width: 100%;
 }
 
 .box--text .accordion-item{

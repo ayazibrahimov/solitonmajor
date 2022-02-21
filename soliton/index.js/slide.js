@@ -31,7 +31,16 @@ let swiper = new Swiper(".mySwiper", {
   
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1110,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 991,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -40,10 +49,19 @@ let swiper = new Swiper(".mySwiper", {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
+          slidesToScroll: 2,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll:1 
         }
       },
       {
@@ -84,7 +102,7 @@ $('.service-slider-1').slick({
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
+          slidesToScroll: 2
         }
       },
       {
@@ -117,7 +135,7 @@ $('.service-slider-2').slick({
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
+          slidesToScroll: 2
         }
       },
       {

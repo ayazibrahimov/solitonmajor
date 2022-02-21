@@ -4,6 +4,16 @@
 }
 
 
+.main--sliders .header .header-slider{
+    margin: 0 auto;
+}
+.main--sliders .header .header-slider .headinig--paraghraf{
+    text-align: center;
+   
+}
+
+
+
 
 
 .slick-next::before{

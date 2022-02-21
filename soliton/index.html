@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/body.css">
     <link rel="stylesheet" href="./style/footer.css">
-     <link rel="stylesheet" href="./style/navigation.css">
+    <link rel="stylesheet" href="./style/base.css">
+    <link rel="stylesheet" href="./style/navigation.css">
     <link rel="stylesheet" href="./style/animations.css">
     <link rel="stylesheet" href="./style/swipperslide.css">
     <link rel="stylesheet" href="./style/slidermarks.css">
@@ -18,6 +19,9 @@
     <link rel="stylesheet" href="./style/about.css">
     <link rel="stylesheet" href="./style/faq.css">
     <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/tablet.css">
+    <link rel="stylesheet" href="./style/mini-tablet.css">
+    <link rel="stylesheet" href="./style/mobile.css">
     
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -261,44 +265,16 @@
     </sectioniv> 
 
     <section class="main--sliders">
-         <div class=" header">
+         <div class="header">
 
 
 
-            <div class="col-12  header-slider">
+            <div class="col-8  header-slider">
 
-                <div class="col-sm-10 mt-5  headinig--paraghraf mt-3">
+                <div class="mt-5  headinig--paraghraf mt-3">
                     <h2 class="mt-2">Bütün brendlərin məişət texnikasını təmir edirik!</h2>
                 </div>
 
-                 <!-- <div class="autoplay">
-                    <div class="item">
-                        <img src="https://mttservice.net/front/images/brend/brendler-08.svg" />
-                    </div>
-                    <div class="item">
-                        <img src="https://mttservice.net/front/images/brend/brendler-09.svg" />
-                    </div>
-                    <div class="item">
-                        <img src="https://mttservice.net/front/images/brend/brendler-10.svg" />
-                    </div>
-                    <div class="item">
-                        <img src="https://mttservice.net/front/images/brend/brendler-11.svg" />
-                    </div>
-                    <div class="item">
-                        <img src="https://mttservice.net/front/images/brend/brendler-12.svg" />
-                    </div>
-                    <div class="item">
-                        <img src="https://mttservice.net/front/images/brend/brendler-13.svg" />
-                    </div>
-                    <div class="item">
-                        <img src="https://mttservice.net/front/images/brend/brendler-02.svg" />
-                    </div>
-                    <div class="item">
-                        <img src="https://mttservice.net/front/images/brend/brendler-03.svg" />
-                    </div>
-                   
-
-                </div> -->
              <div class="slicker marks">
                   
                 <div>
@@ -587,25 +563,27 @@
         </div>
     </section>
 
+    <!--xerite-->
     <section id="map2">
         <div class="container">
             <div class="map--title">
                 <h2> Servis məntəqəmiz</h2>
             </div>
 
-            <div class=" map--essential">
+            <div class="map--essential">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d97102.18128425648!2d49.78500911882134!3d40.487582339655894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slider%20service!5e0!3m2!1sen!2s!4v1643179041071!5m2!1sen!2s"
-                    width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                     style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
 
         </div>
     </section>
 
+    <!--servis haqqinda-->
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-12 col-lg-7 ">
+                <div class="col-12 col-md-12 col-lg-7 major">
                     <!--col-md-12 col-lg-7 -->
                     <h2>"Lider Service" haqqında</h2>
                     <p>"Lider Servi  
@@ -625,7 +603,7 @@
                             <h4>Ehtiyyat hisseleri ve aksesuarlar</h4>
                             <p>Bilavasitə servisimiz tərəfindən əldə olunan orijinal detallar tam əminlik yaradır.
                                 Çünki, bu detallar alınan məhsula tam uyğundur və istənilən keyfiyyəti təmin edə
-                                bilərlər. Lazım olan hissələri əldə etmək üçün servisə müraciət edə bilərsiniz.</p>
+                                bilərlər. <br> Lazım olan hissələri əldə etmək üçün servisə müraciət edə bilərsiniz.</p>
                         </div>
                     </div>
                     <div class="about-block">
@@ -920,7 +898,7 @@
                                              <input type="text" class="control" placeholder="*Axdiniz soyadiniz">
                                     
                                     </div>
-                                    <div class="col-12 col-md-6 col-lg-6 ">
+                                    <div class="col-12 col-md-6 col-lg-6 sec">
                                 
                                              <div class="selection">
                                                 <select class="selectpicker">
@@ -953,7 +931,7 @@
                    <div class="bg-2">
                         <h2>Əlaqə</h2>
                         <ul class="contact-text">
-                            <li>
+                            <li class="address">
                                 <p>Baki s,Samaxi yolu 15km</p>
                             </li>
                             <li class="num">
@@ -1034,7 +1012,7 @@
                 </div>
                 
                 
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 ">
                     
                     <p class="footer-title">Saytin xeritesi</p>
                      
@@ -1051,9 +1029,10 @@
                 
                     </div>
 
-
-                <div class="col-12 col-md-12 col-lg-5">
-                    <p class="footer-title">Elaqe</p>
+                      
+                <div class="col-12 col-md-12 col-lg-5 line">
+                    
+                    <p class="footer-title col-sm-12">Elaqe</p>
                      
                      <ul class="footer-menu  footer-menu__bottom">  
                          <li><a href=""><i class="fas fa-phone-alt"></i>  (+994 51) 618 96 30</a></li>

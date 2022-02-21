@@ -37,8 +37,8 @@ section{
     display: flex;
 }
 .about-block-image{
-    width: 170px;
-    height: 73px;
+    width: 200px;
+    height: 80px;
  
     display: flex;
     -webkit-box-align: center;
@@ -49,6 +49,9 @@ section{
     border-radius: 50%;
     margin-right: 15px;
    
+}
+#about .about-image img{
+    vertical-align: middle;
 }
 
 

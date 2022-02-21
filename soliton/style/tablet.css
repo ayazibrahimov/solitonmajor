@@ -1,0 +1,124 @@
+@media screen and (max-width: 991px){
+
+    section{
+        padding: 45px 0;
+    }
+
+
+
+   html{
+       font-size: 15px;
+   }
+
+
+   .brend-image{
+       /* width: 30%; */
+       margin-right: 35px;
+   }
+
+  
+
+
+
+
+
+
+
+   #about{
+       padding: 45px 0;
+       
+   }
+   #about .major h2{
+       text-align: center;
+       margin-bottom: 25px;
+       
+   }
+   #about .major p{
+       text-align: center;
+       margin-bottom: 25px;
+       font-size: 16px;
+   }
+   #about .about-image{
+       display: block;
+       width: 430px;
+       height: 40%;
+       margin: 30px auto;
+       position: static;
+   }
+   #about .about-block{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 10px 0;
+       -webkit-box-align: center;
+       -webkit-box-orient: vertical;
+       -webkit-box-pack: center;
+   }
+   #about .about-block .about-block-image{
+       width: 70px;
+       height: 70px;
+   }
+   #about .about-block .about-block-text{
+       text-align: center;
+       font-size: 20px;
+   }
+
+    
+
+   .portfolio-2{
+       margin-bottom: 0px;
+       margin-top: 80px;
+   }
+
+   .portfolio-2 .box--images{
+       display: none;
+   }
+   .portfolio-2 .box--text{
+       width: 100%;
+   }
+  
+   .portfolio-2 .container::before{
+       display: none;
+   }
+
+
+
+   .bg-1 .sec{
+       margin-bottom: 48px;
+   }
+
+   
+    .contact .bg-2{
+       border-radius: 10px 10px 10px 10px;
+    }
+
+
+    .contact .col-lg-7 .bg-1{
+        border-radius: 10px 10px 10px 10px;
+     }
+     .bg-2 .contact-text{
+       display: flex;
+       flex-wrap: wrap;
+     }
+ 
+     .bg-2 .address{
+         width: 100%;
+     }
+     .bg-2 .num {
+         width: 49%;
+     }
+
+
+     /* .footer-title::before{
+         content: "";
+         width: 3px;
+         height: 20px;
+         background: black;
+         position: absolute;
+         left: 0;
+         top: 5px;
+       
+     } */
+
+
+}

@@ -37,12 +37,13 @@ section {
 
 .about-block {
     display: flex;
+    overflow-x: hidden;
 }
 
 .about-block-image {
-    width: 200px;
-    height: 80px;
-
+    width: 140px;
+    height: 75px;
+     
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -56,4 +57,5 @@ section {
 
 #about .about-image img {
     vertical-align: middle;
+    width: 100%;
 }

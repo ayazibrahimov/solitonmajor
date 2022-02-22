@@ -83,7 +83,7 @@ $('.marks').slick({
 $('.service-slider-1').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 2000,
 
   responsive: [{
@@ -109,7 +109,7 @@ $('.service-slider-1').slick({
       }
     },
     {
-      breakpoint: 375,
+      breakpoint: 420,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
@@ -149,7 +149,7 @@ $('.service-slider-2').slick({
       }
     },
     {
-      breakpoint: 375,
+      breakpoint: 420,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1

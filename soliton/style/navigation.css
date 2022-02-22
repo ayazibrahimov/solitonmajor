@@ -54,7 +54,7 @@
     background-color: white !important;
     background-image: url(../imgage/17580-[Converted]\ 1.png) !important;
     z-index: 100;
-    position: absolute;
+    position: fixed;
     right: 0;
     transform: translateX(100%);
     top: 0;

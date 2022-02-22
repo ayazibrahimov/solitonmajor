@@ -7,8 +7,11 @@
         overflow-x: hidden;
     }
 
+    #nav-list li a{
+        font-size: 17px;
+    }
 
-    .service-slider-1 {
+    .service-slider-1 { 
         width: 100%;
         margin: 0 auto;
     }
@@ -88,5 +91,16 @@
 
     .contact .mail {
         overflow: hidden;
+    }
+
+    .footer-menu__bottom {
+        display: flex;
+        flex-direction: column;
+       
+        
+        
+    }
+    .footer-menu__bottom li{
+        width: 100%;
     }
 }

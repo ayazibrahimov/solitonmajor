@@ -7,11 +7,11 @@
         overflow-x: hidden;
     }
 
-    #nav-list li a{
+    #nav-list li a {
         font-size: 17px;
     }
 
-    .service-slider-1 { 
+    .service-slider-1 {
         width: 100%;
         margin: 0 auto;
     }
@@ -80,9 +80,6 @@
         padding: 15px 0px;
     }
 
-    .bg-2 {
-        padding: 15px 35px;
-    }
 
 
     .contact .contact-text li {
@@ -96,11 +93,12 @@
     .footer-menu__bottom {
         display: flex;
         flex-direction: column;
-       
-        
-        
+
+
+
     }
-    .footer-menu__bottom li{
+
+    .footer-menu__bottom li {
         width: 100%;
     }
 }
